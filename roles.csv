@@ -1,0 +1,4 @@
+role,entitlements
+Analyst,View_Financials|Submit_Reports
+DevOps,Access_Azure_Dev|Modify_S3
+HR_Assistant,View_Employee_Data|Edit_Payroll
