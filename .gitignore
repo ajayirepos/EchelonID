@@ -1,5 +1,5 @@
-echo "venv/
+venv/
 __pycache__/
-output/*
-cloud_export/*
-.DS_Store" > .gitignore
+output/
+cloud_export/
+.DS_Store
