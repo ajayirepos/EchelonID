@@ -1,3 +1,15 @@
+# 🧩 EchelonID — Identity Governance Administration Demo
+![EchelonID Dashboard](screenshot.png)
+
+![Python](https://img.shields.io/badge/Python-3.11-blue)
+![Platform](https://img.shields.io/badge/Platform-macOS-lightgrey)
+![License](https://img.shields.io/badge/Project-Type:IGA-orange)
+![Status](https://img.shields.io/badge/Status-Active-success)
+
+A lightweight Saviynt-style Identity Governance project built in Python.
+Implements joiner–mover–leaver automation, policy alignment, LDAP simulation,
+PKI certificate lifecycle monitoring, and Flask dashboard visualization.
+
 # EchelonID — Mini Identity Governance Demo
 
 A small, runnable identity governance (IGA) project built to mirror an **Identity Governance Administration Engineer** job description. It shows:
