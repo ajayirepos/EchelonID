@@ -1,4 +1,0 @@
-user_id,full_name,department,role,expected_entitlements
-U001,Jane Doe,Finance,Analyst,View_Financials|Submit_Reports
-U002,Mark Smith,Engineering,Analyst,
-U004,John Taylor,IT,DevOps,
