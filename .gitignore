@@ -3,3 +3,4 @@ __pycache__/
 output/
 cloud_export/
 .DS_Store
+structure.txt
