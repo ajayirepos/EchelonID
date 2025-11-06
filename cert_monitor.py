@@ -29,10 +29,12 @@ for user in users:
         .sign(key, hashes.SHA256())
     )
 
-    days_left = (cert.not_valid_after - datetime.utcnow()).days
-    line = f"{user},{cert.not_valid_after.date()},{days_left}"
-    print(line)
-    cert_report_lines.append(line)
+expiry = cert.not_valid_after_utc.replace(tzinfo=None)
+days_left = (expiry - datetime.utcnow()).days
+line = f"{user},{expiry.date()},{days_left}"
+
+print(line)
+cert_report_lines.append(line)
 
 # write audit report
 with open("output/expired_certs_report.csv", "w") as f:

@@ -1,0 +1,16 @@
+{
+  "policies": [
+    {
+      "name": "Finance-Analyst-Minimum",
+      "department": "Finance",
+      "role": "Analyst",
+      "entitlements": ["View_Financials", "Submit_Reports"]
+    },
+    {
+      "name": "Engineering-DevOps-Baseline",
+      "department": "Engineering",
+      "role": "DevOps",
+      "entitlements": ["Access_Azure_Dev", "Modify_S3"]
+    }
+  ]
+}
