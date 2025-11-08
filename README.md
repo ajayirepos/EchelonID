@@ -1,5 +1,5 @@
 # 🧩 EchelonID — Identity Governance Administration Demo
-[EchelonID Dashboard](./output/screenshot.png)
+![EchelonID Dashboard](screenshot.png)
 
 ![Python](https://img.shields.io/badge/Python-3.11-blue)
 ![Platform](https://img.shields.io/badge/Platform-macOS-lightgrey)
